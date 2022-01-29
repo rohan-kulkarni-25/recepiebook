@@ -22,15 +22,12 @@ app.use(fileUpload({
 app.use(morgan('tiny'))
 
 // import all routes here 
-const recepie = require('./Routes/Recepie')
-// const user = require('./routes/user')
-// const product = require('./routes/product')
+const recipe = require('./routes/recipe')
+const user = require('./routes/user')
 
 
 // router middleware 
-app.use('/api/v1',recepie)
-// app.use('/api/v1',user)
-// app.use('/api/v1',product)
-
+app.use('/api/v1', recipe)
+app.use('/api/v1', user)
 
 module.exports = app;

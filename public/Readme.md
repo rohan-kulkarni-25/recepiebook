@@ -8,7 +8,7 @@ If we take any project that can be ecomerce site this same concepts are implemen
 product. So I think that this project will help my team members to understand how real world projects get developed.
 
 <p align='center'>
-  <img src='./public/map.png' width='50%'>
+  <img src='./map.png' width='50%'>
 </p>
 
 <br>
